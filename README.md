@@ -1,16 +1,55 @@
-# React + Vite
+# Maulik Panchal | Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, modern, and recruiter-friendly personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern UI/UX**: Premium glassmorphism design with a dark mode professional theme.
+- **Dynamic Animations**: Smooth transitions and interactive elements powered by **Framer Motion**.
+- **GitHub Integration**: Real-time stats and contribution graph fetched directly from the GitHub API.
+- **Functional Contact Form**: Integrated with **Formspree** for AJAX-based email delivery with animated success notifications.
+- **Responsive Design**: Fully optimized for all devices (Mobile, Tablet, Desktop).
+- **Project Showcase**: Detailed cards for key projects including:
+  - Auto Elite Garage Management System
+  - Scholar AI Academic Solver
+  - Khanipini (Food Delivery Platform)
+  - Video Editor Portfolio
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React & Custom Brand Icons
+- **Build Tool**: Vite
+- **Form Handling**: Formspree (AJAX)
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/maulikpanchal1616/Full-Stack-developer-Maulik.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run locally**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📧 Contact
+
+- **LinkedIn**: [maulik-panchal-260621295](https://linkedin.com/in/maulik-panchal-260621295)
+- **Email**: maulikvpanchal2006@gmail.com
+- **GitHub**: [@maulikpanchal1616](https://github.com/maulikpanchal1616)
+
+---
+Developed with ❤️ by Maulik Panchal
