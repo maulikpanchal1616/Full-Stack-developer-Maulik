@@ -51,13 +51,15 @@ const Hero = () => {
             >
               Contact Me
             </motion.a>
-            <motion.button
+            <motion.a
+              href="/ATS%20Maulik%20Resume.pdf"
+              download="Maulik_Panchal_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 rounded-2xl border border-white/10 font-bold flex items-center justify-center gap-2 hover:bg-white/5 w-full sm:w-auto"
             >
               <Download size={20} /> Resume
-            </motion.button>
+            </motion.a>
           </div>
 
           <div className="flex gap-6">
