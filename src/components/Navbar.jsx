@@ -47,13 +47,15 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </motion.a>
           ))}
-          <motion.button
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="px-5 py-2 rounded-full bg-primary text-white text-sm font-semibold hover:bg-primary-hover transition-all shadow-lg shadow-primary/20"
+          <motion.a
+            href="/ATS%20Maulik%20Resume.pdf"
+            download="Maulik_Panchal_Resume.pdf"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="hidden md:block px-6 py-2.5 rounded-xl bg-primary text-white font-bold text-sm shadow-lg shadow-primary/20 hover:bg-primary-hover transition-all"
           >
             Resume
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Toggle */}
@@ -82,9 +84,15 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="w-full py-3 rounded-xl bg-primary text-white font-semibold">
-                Download Resume
-              </button>
+              <motion.a
+                href="/ATS%20Maulik%20Resume.pdf"
+                download="Maulik_Panchal_Resume.pdf"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="w-full py-4 rounded-2xl bg-primary text-white font-bold text-center shadow-lg shadow-primary/20"
+              >
+                Resume
+              </motion.a>
             </div>
           </motion.div>
         )}
